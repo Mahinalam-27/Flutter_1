@@ -60,18 +60,18 @@ class Assignment4 extends StatelessWidget {
               margin: const EdgeInsets.all(20),
               alignment: Alignment.bottomCenter,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 136, 3, 3),
+                color: const Color.fromARGB(255, 211, 143, 116),
                 border: Border.all(
                   width: 5,
-                  color: const Color.fromARGB(255, 80, 7, 2),
+                  color: const Color.fromARGB(255, 0, 0, 0),
                 ),
                 borderRadius: const BorderRadius.all(
                   Radius.circular(20),
                 ),
                 gradient: const RadialGradient(
                   colors: [
-                    Color.fromARGB(255, 74, 16, 84),
-                    Colors.purpleAccent,
+                    const Color.fromARGB(255, 249, 82, 37),
+                    const Color.fromARGB(255, 37, 67, 26),
                   ],
                 ),
               ),
@@ -85,7 +85,7 @@ class Assignment4 extends StatelessWidget {
               height: 200,
               width: 200,
               child: Card(
-                color: Colors.purple,
+                color: const Color.fromARGB(255, 143, 242, 214),
                 shadowColor: Colors.black,
                 elevation: 10,
                 shape: const BeveledRectangleBorder(),
